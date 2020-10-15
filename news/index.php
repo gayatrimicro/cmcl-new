@@ -38,7 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <link rel="canonical" href="https://cmclancaster.com/news/">
         <link rel="alternate" href="https://cmclancaster.com/news/" hreflang="en-us" />
 
-        <link rel="stylesheet" href="../assets/css/footer.css" hreflang="en-us" />
+        <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css" hreflang="en-us" />
    
     
          <style type="text/css">

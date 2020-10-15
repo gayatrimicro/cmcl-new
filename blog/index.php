@@ -42,8 +42,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <meta name="twitter:title" content="Blog | Crescent Medical Center Lancaster Texas"  >
     <meta name="twitter:description" content="" >
 
-          <link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
-          <link rel="stylesheet" type="text/css" href="../assets/css/mobmenu.css">
+          <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
+          <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/mobmenu.css">
 
       
 
@@ -1996,7 +1996,7 @@ $('document').ready(function () {
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/hero-carousel.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobile-menu.js"></script>
        <script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/menu.js"></script>
-       <script src='../assets/js/mobmenu.js'></script>
+       <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobmenu.js'></script>
     
    </body>
 </html>

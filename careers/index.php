@@ -45,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <link rel="canonical" href="https://cmclancaster.com/careers/">
       <link rel="alternate" href="https://cmclancaster.com/careers/" hreflang="en-us" />
-      <link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
       <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
 
       <style type="text/css">
@@ -130,8 +130,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/menu.css">
 
-      <link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
-      <link rel="stylesheet" type="text/css" href="../assets/css/mobmenu.css">
+      <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/mobmenu.css">
       <!-- responsive  -->
       <style>
         @media screen and (min-width: 1920px){
@@ -872,7 +872,7 @@ $('document').ready(function () {
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/hero-carousel.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobile-menu.js"></script>
       <script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/menu.js"></script>
-      <script src='../assets/js/mobmenu.js'></script>
+      <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobmenu.js'></script>
          <style type="text/css">
         .fa-youtube-play:before{
               margin-top: 0px;

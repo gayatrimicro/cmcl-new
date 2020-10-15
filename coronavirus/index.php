@@ -137,7 +137,7 @@
       <!-- <link rel="stylesheet" type="text/css" href="../assets/css/menu.css"> -->
 
 
-      <link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
       <!-- responsive  -->
       <style>
         #corona{

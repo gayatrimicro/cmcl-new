@@ -133,8 +133,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/menu.css">
 			<link rel="stylesheet" href="menu.css">
 			
-<link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/mobmenu.css">
+<link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
+<link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/mobmenu.css">
 
 
 <!-- responsive  -->
@@ -888,7 +888,7 @@ $('document').ready(function () {
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/hero-carousel.js"></script>
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobile-menu.js"></script>
 			 <script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/menu.js"></script>
-			 <script src='../assets/js/mobmenu.js'></script>
+			 <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobmenu.js'></script>
 			 
 			<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 			<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>

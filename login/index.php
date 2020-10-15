@@ -113,7 +113,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <!-- /SEO Ultimate -->
 
 
-      <link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
 
 
       <link rel="dns-prefetch" href="https://ajax.googleapis.com/">

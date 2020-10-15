@@ -62,7 +62,7 @@ include('message.php');
    
     <!-- <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/1761272287222885" async=""></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/footer.css">
     
     <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/jquery-ui.min.css">
     <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/frontend.css">
@@ -79,10 +79,10 @@ include('message.php');
     <!-- <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/frontend(1).css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/menu.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/pstyle.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/mobmenu.css">
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/pstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/mobmenu.css">
     <!-- <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/lang.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lang.css">
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/lang.css">
     <!-- hospital schema -->
     <script type="application/ld+json">
     {
@@ -617,7 +617,7 @@ include('message.php');
         <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/client-detect.js"></script>
         <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/lightcase.js"></script>
         <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/frontend.js"></script>
-         <script src="assets/js/instafeed.min.js"></script>
+         <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/instafeed.min.js"></script>
     <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/identity.js" async=""></script>
         <meta name="referrer" content="always">
         <script type="text/javascript">
@@ -784,7 +784,7 @@ include('message.php');
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-daygrid.js'></script>
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-timegrid.js'></script>
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-list.js'></script>
-        <script src='assets/js/mobmenu.js'></script>
+        <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobmenu.js'></script>
         
         <script type="text/javascript">
         /* <![CDATA[ */
