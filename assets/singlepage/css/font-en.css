@@ -1,0 +1,66 @@
+/*
+ * Font         : Gotham, jt-font
+ * License      :
+ * Subset Maker : Studio-jt (KMS)
+ * Version      : 1.0.0
+ * description  :
+ */
+
+
+
+/* ************************************** *
+ * Gotham
+ * ************************************** */
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Gotham/GothamLight.eot');
+    src: local('※'),
+         url('../fonts/Gotham/GothamLight.woff') format('woff'),
+         url('../fonts/Gotham/GothamLight.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Gotham/GothamBook.eot');
+    src: local('※'),
+         url('../fonts/Gotham/GothamBook.woff') format('woff'),
+         url('../fonts/Gotham/GothamBook.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Gotham/GothamMedium.eot');
+    src: local('※'),
+         url('../fonts/Gotham/GothamMedium.woff') format('woff'),
+         url('../fonts/Gotham/GothamMedium.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Gotham/GothamBold.eot');
+    src: local('※'),
+         url('../fonts/Gotham/GothamBold.woff') format('woff'),
+         url('../fonts/Gotham/GothamBold.otf') format('opentype');
+}
+
+
+
+/* ************************************** *
+ * JT-FONT
+ * ************************************** */
+@font-face {
+    font-family:'jt-font';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/jt-font/fonts/jt-font.eot);
+    src: local("?"),
+         url(../fonts/jt-font/fonts/jt-font.woff) format('woff');
+}

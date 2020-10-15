@@ -1,0 +1,213 @@
+.desktop-menu-mega .sub-menu .mega-menu{
+/*width: unset !important;*/
+padding: 20px 0 20px 20px;
+}
+.desktop-menu-mega .sub-menu>div>.title .dotted-underline{
+padding: 0 30px 9px 0;
+}
+.desktop-menu-mega .sub-menu>div>.title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4c4a4a;
+}
+.desktop-menu-mega .sub-menu .mega-menu .mega-menu-menu .menu-item a{
+font-size: 0.92rem;
+}
+.mega-menu{
+	height: auto;
+    background-color: #fff;
+}
+.desktop-menu .menu-wrap>.menu .menu-item:hover>.sub-menu, #arrow{
+    max-height: fit-content;
+        overflow: hidden;
+}
+/*.desktop-menu-mega .sub-menu>div>.title{
+	line-height: 1;
+	font-size: 1.2rem;
+}*/
+.menu-list{
+	position: relative;
+}
+.sub-menu{
+	position: absolute;
+	border-radius: 0 0 7px 7px;
+    border-top: 3px solid #72bbe7;
+
+}
+.header.desktop-menu.menu-fixed .sub-menu, .header.desktop-menu:hover .sub-menu{
+	box-shadow: inset 0 0px 5px -5px rgba(0, 0, 0, .1), 0 3px 5px 0 rgba(0, 0, 0, .1);
+}
+/*.menu-item:hover .desktop-menu .menu-wrap>.menu .menu-list>li{
+	display: block;
+}*/
+/*.sub-menu{
+	opacity: 1; 
+}*/
+.desktop-menu .menu-wrap>.menu .menu-item:hover>.sub-menu{
+	   /*display: none; */
+}
+@media (min-width: 1280px){
+	.menu-item:hover .sub-menu{
+		display: none;
+	}
+}
+.close:focus, .close:hover {
+    opacity: 1 !important;
+}
+.desktop-menu .menu-wrap>.menu .menu-item.has-child:hover>a:after{
+	transform: rotate(0);
+}
+.desktop-menu-mega .sub-menu .mega-menu .mega-menu-menu .menu-item:hover a{
+	color: #ee3124 !important;
+}
+.desktop-menu-mega .menu-wrap>.menu .sub-menu{
+	pointer-events: visible;
+}
+.close_search{
+	position: absolute;
+    display: block;
+    right: 15px;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.list-item-search__list{
+	font-size: 14px;
+	font-size: 1rem;
+	line-height: 18px;
+	line-height: 1.125rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+.list-item-search__list_rt{
+	/*color: #ee3124;
+	font-weight: bold;*/
+}
+.search-facets-title__sort{
+	    float: right;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+.search-facets-title__sort:focus{
+	background-color: #fff;
+	border-color: #d6cece;
+}
+.out_focus:focus{
+	outline: none;
+}
+.list-item-search__list li{
+	/*font-weight: bold;*/
+}
+.list-item-search__heading{
+	font-weight: bold;
+    color: #626263;
+}
+.select2-choices{
+	border: 0 !important;
+}
+.select2-drop-active, .select2-container ,.js-search-field{
+	    border: 1px solid #ddd !important;
+}
+.select2-search-choice-close{
+	background: url(../images/select2.png) right top no-repeat !important;
+}
+.select2-choices, .select2-match, .select2-result-label{
+	font-size: 1rem !important;
+}
+.partition{
+	border: 1px dotted;
+	display: none;
+}
+.main_div_doc{
+	border-left: 1px solid #ddd;
+}
+.select2-input{
+	font-size: 1rem !important;
+}
+.search_cont{
+	background-color: #fff;
+    padding: 22px 10px;
+}
+.clear-all{
+	color: #003a70;
+    font-weight: bold;
+}
+.select2_style{
+	background-color: #fff;
+	background-image: none;
+	float:left;
+	margin-bottom: 25px;
+}
+.book_btn{
+	margin-top: 20px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    background-color: #003a70;
+}
+.book_btn:hover{
+	background-color: #17548e;
+}
+.pop_model{
+	position: fixed;
+					    top: 0;
+					    z-index: 545;
+					    background: #00000066;
+					    width: 100%;
+					    height: 100%;
+					    display: none;
+}
+.pop_model_cont{
+	width: 60%;
+					    background: #fff;
+					    margin: auto;
+					    padding: 20px;
+					    margin-top: 10px;
+					    position: relative;
+}
+.close_btn{
+	float: right;
+}
+.close_btn::after{
+	content: "X";
+    padding: 5px 10px;
+    background-color: #caebecad;
+    border-radius: 50%;
+    color: #5f5d5d;
+    border: 1px solid;
+    margin-right: 8px;
+}
+@media (max-width: 991px){
+	.partition{
+		display: block;
+	}
+	.main_div_doc{
+		border-left: 0;
+	}
+}
+@media (max-width: 767px) and (min-width: 380px){
+	.search-facets-title__sort{
+		width:20% !important;
+	}
+	.doc-count{
+		width: 80% !important;
+	}
+}
+@media (max-width: 640px){
+	.pop_model_cont{
+		width: 95%;
+		padding-left: 0px;
+    	padding-right: 0px;
+	}
+}
+@media (max-width: 340px){
+	.book_btn{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 0.7rem;
+	}
+}

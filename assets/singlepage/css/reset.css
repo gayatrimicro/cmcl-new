@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*
+ * File       : reset.css
+ * Author     : STUDIO-JT (KMS)
+ * Guideline  : JTstyle.1.1
+ *
+ * SUMMARY:
+ * 1) RESET FILES
+ */
+
+
+
+/* **************************************** *
+ * RESET FILES
+ * **************************************** */
+[lang="en"] {
+    font-family: 'Gotham', 'NotoSansKR', sans-serif;
+  /*  font-family: 'Montserrat', sans-serif;*/
+}
+
+body {
+     font-family: 'NotoSansKR', sans-serif;
+   
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,time,figure,article,nav,header,footer,hgroup,video,audio,aside,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+ol,ul {list-style: none;}
+table {border-collapse: separate; border-spacing: 0;}
+caption,th,td {text-align: left; font-weight: normal;}
+figure,article,header,footer,nav,hgroup,video,audio,aside,main {display: block;}
+
+/* mobile */
+/*input, textarea{ -webkit-appearance: none; -webkit-border-radius:0px; border-radius:0px;}*/
+/*reset mobile default style*/
+body,textarea:focus,input:focus,a:focus {-webkit-tap-highlight-color: rgba(255, 255, 255, 0);}
+html{-ms-text-size-adjust: none;-webkit-text-size-adjust: none;text-size-adjust: none;}
+
+::-moz-selection {background: rgba(192, 199, 156, .35); color:#fff;}
+::selection {background: rgba(192, 199, 156, .35); color:#fff;}
+::-moz-selection {background: rgba(192, 199, 156, .35); color:#fff;}
+
+
+
+/* **************************************** *
+ * WP CORE
+ * **************************************** */
+ul#wp-admin-bar-root-default {float: left;}
+.screen-reader-text{ text-indent: -9999px; display: inline-block; overflow: hidden;}

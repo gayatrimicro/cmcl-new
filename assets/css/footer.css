@@ -1,0 +1,443 @@
+
+/* my custom stylesheet from here*/
+
+
+
+.text-left-not-xs, .text-left-not-sm, .text-left-not-md, .text-left-not-lg {
+    text-align: left;
+}
+.text-center-not-xs, .text-center-not-sm, .text-center-not-md, .text-center-not-lg {
+    text-align: center;
+}
+.text-right-not-xs, .text-right-not-sm, .text-right-not-md, .text-right-not-lg {
+    text-align: right;
+}
+.text-justify-not-xs, .text-justify-not-sm, .text-justify-not-md, .text-justify-not-lg {
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    .text-left-not-xs, .text-center-not-xs, .text-right-not-xs, .text-justify-not-xs {
+        text-align: inherit;
+    }
+    .text-left-xs {
+        text-align: left;
+    }
+    .text-center-xs {
+        text-align: center;
+    }
+    .text-right-xs {
+        text-align: right;
+    }
+    .text-justify-xs {
+        text-align: justify;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-left-not-sm, .text-center-not-sm, .text-right-not-sm, .text-justify-not-sm {
+        text-align: inherit;
+    }
+    .text-left-sm {
+        text-align: left;
+    }
+    .text-center-sm {
+        text-align: center;
+    }
+    .text-right-sm {
+        text-align: right;
+    }
+    .text-justify-sm {
+        text-align: justify;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-left-not-md, .text-center-not-md, .text-right-not-md, .text-justify-not-md {
+        text-align: inherit;
+    }
+    .text-left-md {
+        text-align: left;
+    }
+    .text-center-md {
+        text-align: center;
+    }
+    .text-right-md {
+        text-align: right;
+    }
+    .text-justify-md {
+        text-align: justify;
+    }
+}
+@media (min-width: 1200px) {
+    .text-left-not-lg, .text-center-not-lg, .text-right-not-lg, .text-justify-not-lg {
+        text-align: inherit;
+    }
+    .text-left-lg {
+        text-align: left;
+    }
+    .text-center-lg {
+        text-align: center;
+    }
+    .text-right-lg {
+        text-align: right;
+    }
+    .text-justify-lg {
+        text-align: justify;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 64.0625em){
+.page-banner .page-banner-social a {
+    font-size: 2.2rem;
+}
+
+
+}
+
+.page-banner .page-banner-social a {
+    font-size: 2.125rem;
+    color: #fff;
+}
+/*.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 3px;
+}
+.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color:red !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: #34aff1;
+    line-height: inherit;
+    color: #04254a !important;
+}
+
+.fa-youtube-play:before {
+    content: "\f16a";
+    color: #04254a !important;
+
+}
+
+.fa-youtube-play:before {
+    margin-top: 5px;
+    color: #04254a !important;
+}*/
+
+/*
+.f{
+
+
+  width:30px;
+  height: 30px;
+  padding:5px;
+  border-radius: 100%;
+  border:thin solid gainsboro;
+  display: inline-block;
+
+}
+*/
+
+
+
+.page-banner .page-banner-social a {
+    font-size: 2.2rem !important;
+}
+
+
+/*.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 33px;
+    color:gray !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}*/
+
+
+
+  
+  .global-footer{
+
+    display: none !important;
+  }
+  .ul-list{
+    
+     list-style-type: none;
+     display: block;
+     margin:0px;
+     position: relative;
+     padding: 0px;
+
+  }
+.custom-back{
+
+  background:#04244a;
+  padding: 40px;
+
+}
+
+.custom-back-back{
+  background:#04244a;
+  padding: 40px;
+
+}
+
+.li-list{
+  list-style-type: none;
+  color: #909195;
+  display: block;
+  margin:0px;
+  line-height:33px;
+}
+
+.text-white-new{
+
+  color:#909195;
+  font-size: 19px;
+}
+
+
+.small-address{
+
+  font-size:17px;
+  color:#909195;
+}
+
+.footer-link{
+
+  color:#909195;
+}
+
+.footer-link:hover{
+
+  color:#909195;
+}
+
+
+.subscribe-social .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2rem;
+    color: inherit;
+}
+.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*.new-color:before {
+    content: "\e910";
+    color: aliceblue !important;
+}
+
+.icon-twitter-with-circle:before {
+    content: "\e910";
+    color: aliceblue;
+}
+
+.icon-linkedin-with-circle:before {
+    content: "\e910";
+    color: aliceblue;
+}
+*/
+a {
+    color: #34aff1;
+    line-height: inherit;
+}
+
+.subscribe-social .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2rem;
+    color: inherit;
+}
+.subscribe-social .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2rem;
+    color: inherit;
+}
+.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 3px;
+}
+
+.mt{margin-top: 13px;}
+.iBridge{
+
+  color: #34aff1;
+}
+
+.iBridge:hover{
+
+  color: #34aff1;
+}
+
+.inline-inline-links{
+
+  font-size:20px !important;
+  padding: 10px;
+}
+.pipes{
+
+  font-size:20px;
+}
+
+
+.inline-links{
+
+  padding:140px;
+  padding-bottom: 10px;
+}
+
+.instaf{
+
+
+  line-height: 32px !important;
+}
+
+.instagram, .youtube{
+
+    position: relative;
+    top: 9px;
+}
+
+
+.instagram:before {
+    content: "\f16d";
+    line-height: 23px;
+}
+
+.youtube:before {
+    content: "\f16d";
+    line-height: 23px;
+}
+
+.padding{
+
+  position: relative;
+  bottom:10px;
+}
+
+
+.footer-link:first-child{
+
+  padding-left:0px;
+}
+
+@media only screen and (max-width: 768px){
+
+.text-center{
+
+  padding-top:20px;
+}
+
+.text-left{
+
+  text-align: center !important; 
+}
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+.text-center{
+
+  padding-top:20px;
+}
+
+.inline-links {
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.icon{
+
+  text-align: center !important;
+}
+
+.text-left{
+
+  
+    position: relative;
+    left: 0px !important;
+}
+
+
+.text-left{
+
+  text-align: center !important; 
+}
+
+.icon {
+    font-family: 'streamline' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 30px !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+}
+
+@media only screen and (max-width:320px){
+.instagram, .youtube {
+    position: relative;
+    top: 4px !important;
+}
+}

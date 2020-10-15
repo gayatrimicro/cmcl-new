@@ -1,0 +1,114 @@
+
+.desktop-menu-mega .sub-menu .mega-menu{
+/*width: unset !important;*/
+padding: 20px 0 20px 20px;
+height: auto !important;
+}
+.desktop-menu-mega .sub-menu>div>.title .dotted-underline{
+padding: 0 30px 9px 0;
+}
+.desktop-menu-mega .sub-menu>div>.title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4c4a4a;
+}
+.desktop-menu-mega .sub-menu .mega-menu .mega-menu-menu .menu-item a{
+font-size: 0.92rem;
+}
+.mega-menu{
+  height: auto;
+    background-color: #fff;
+}
+.desktop-menu .menu-wrap>.menu .menu-item:hover>.sub-menu, #arrow{
+    max-height: 100%;
+    /*max-height: fit-content;*/
+        overflow: hidden;
+}
+/*.desktop-menu-mega .sub-menu>div>.title{
+  line-height: 1;
+  font-size: 1.2rem;
+}*/
+.menu-list{
+  position: relative;
+}
+.sub-menu{
+  position: absolute;
+  border-radius: 0 0 7px 7px;
+    border-top: 3px solid #72bbe7;
+
+}
+.sub-menu-base{
+  position: absolute;
+  border-radius: 0 0 7px 7px;
+  border-top: 3px solid #72bbe7;
+
+}
+.custom-class{
+
+    left: 450px;
+    width: 31% !important;
+    opacity:0;
+    top: inherit;
+    background: blue;
+    display: block;
+    z-index: 9; 
+    top: 300px;
+    position: absolute;
+}
+
+.custom-item:hover .custom-class{
+
+    left: 450px;
+    width: 31% !important;
+    opacity: 1 !important;
+    top: inherit;
+    z-index: 9; 
+    display: block;
+    
+}
+/*.has-child{
+  position:absolute;
+}
+*/
+
+/*.sub-menu-base {
+    
+    position: relative;
+     position: absolute; 
+    border-radius: 0 0 7px 7px;
+    border-top: 3px solid #72bbe7;
+}*/
+
+
+
+
+.header.desktop-menu.menu-fixed .sub-menu, .header.desktop-menu:hover .sub-menu{
+  box-shadow: inset 0 0px 5px -5px rgba(0, 0, 0, .1), 0 3px 5px 0 rgba(0, 0, 0, .1);
+}
+/*.menu-item:hover .desktop-menu .menu-wrap>.menu .menu-list>li{
+  display: block;
+}*/
+/*.sub-menu{
+  opacity: 1; 
+}*/
+.desktop-menu .menu-wrap>.menu .menu-item:hover>.sub-menu{
+     /*display: none; */
+}
+@media (min-width: 1280px){
+  .menu-item:hover .sub-menu{
+    display: none;
+  }
+}
+.close:focus, .close:hover {
+    opacity: 1 !important;
+}
+.desktop-menu .menu-wrap>.menu .menu-item.has-child:hover>a:after{
+  transform: rotate(0);
+}
+.desktop-menu-mega .sub-menu .mega-menu .mega-menu-menu .menu-item:hover a{
+  color: #ee3124 !important;
+}
+.desktop-menu-mega .menu-wrap>.menu .sub-menu{
+  pointer-events: visible;
+  z-index: 9999;
+}
